@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: grey;
+}
+
+.contenedorPrincipal {
+  margin: 60px 300px 0px 300px;
+  height: 500px;
+}
+
+.carta {
+  background: white;
+  margin: 0px 300px 0px 0px;
+  height: 13.2cm;
+  width: 8.5cm;
+  border-radius: 25px;
+}
+
+#parte1Carta {
+  margin: 0;
+  height: 3cm;
+}
+
+#parte2Carta {
+  display: flex;
+  margin: 0;
+  height: 7.2cm;
+  text-align: center;
+}
